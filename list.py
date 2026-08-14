@@ -96,35 +96,27 @@ print(number_copy)
 # 9. Print how many items are in the final list.
 
 # 1. Create a list called groceries with at least 5 items
-
 groceries = ["bread", "rice", "chicken", "apples", "cheese"]
 print(groceries)
 
-
 # 2. Print the first and last item using indexing
-
 print(groceries[0])   # First item
 print(groceries[4])  # Last item
 
-
 # 3. Use slicing to print just the first 3 items
 print(groceries[:3])
-
 
 # 4. Add "eggs" to the end of the list using append()
 groceries.append("eggs")
 print(groceries)
 
-
 # 5. Insert "milk" at the very beginning of the list
 groceries.insert(0, "milk")
 print(groceries)
 
-
 # 6. Remove one item using remove()
 groceries.remove("rice")
 print(groceries)
-
 
 # 7. Check if "bread" is in the list
 if "bread" in groceries:
@@ -132,11 +124,9 @@ if "bread" in groceries:
 else:
     print("No, bread is not in the grocery list.")
 
-
 # 8. Sort the list alphabetically and print it
 groceries.sort()
 print(groceries)
-
 
 # 9. Print how many items are in the final list
 print(len(groceries))
